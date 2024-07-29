@@ -17,7 +17,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyApplicationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    BasicTextExample(
+                    TextExample(
+                        text = "Hello, World!",
                         modifier = Modifier.padding(innerPadding),
                     )
                 }
