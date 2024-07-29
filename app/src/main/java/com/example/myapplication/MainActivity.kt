@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyApplicationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    BasicTextFieldExample(
+                    ColumnExample(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
