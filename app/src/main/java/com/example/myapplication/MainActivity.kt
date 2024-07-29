@@ -17,8 +17,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyApplicationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    BoxExample(
-                        modifier = Modifier.padding(innerPadding)
+                    ConstraintLayoutExample(
+                        modifier = Modifier
+                            .padding(innerPadding)
                     )
                 }
             }
