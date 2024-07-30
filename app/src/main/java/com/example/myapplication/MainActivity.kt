@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
                     }
 
                 ) { innerPadding ->
-                    LazyVerticalGridExample(
+                    LazyHorizontalGridExample(
                         modifier = Modifier
                             .padding(innerPadding)
                     )
