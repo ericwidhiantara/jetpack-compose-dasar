@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
                     }
 
                 ) { innerPadding ->
-                    LazyColumnExample(
+                    LazyRowExample(
                         modifier = Modifier
                             .padding(innerPadding)
                     )
