@@ -67,7 +67,7 @@ fun ScaffoldExample(modifier: Modifier = Modifier) {
     )
 }
 
-@Preview(showBackground = false)
+@Preview(showBackground = true)
 @Composable
 fun PreviewScaffoldExample() {
     ScaffoldExample()
