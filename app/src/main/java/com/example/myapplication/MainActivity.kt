@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                         TopAppBar(title = { Text("My App") })
                     }
                 ) { innerPadding ->
-                    ButtonExample(
+                    OutlinedButtonExample(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
