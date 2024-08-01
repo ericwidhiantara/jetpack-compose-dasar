@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
                     }
 
                 ) { innerPadding ->
-                    LazyHorizontalGridExample(
+                    FlowRowExample(
                         modifier = Modifier
                             .padding(innerPadding)
                     )
