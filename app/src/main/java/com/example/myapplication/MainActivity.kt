@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
                     }
 
                 ) { innerPadding ->
-                    FlowColumnExample(
+                    BoxWithConstraintsExample(
                         modifier = Modifier
                             .padding(innerPadding)
                     )
