@@ -11,6 +11,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import com.example.myapplication.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,12 +25,15 @@ class MainActivity : ComponentActivity() {
                     topBar = {
                         TopAppBar(title = { Text("My App") })
                     }
-
                 ) { innerPadding ->
-                    LayoutExample(
+                    SubComposeLayoutExample(
                         modifier = Modifier
                             .padding(innerPadding)
-                    )
+                    ) {
+                        repeat(10) { index ->
+                            Text("Item $index", modifier = Modifier.padding(8.dp))
+                        }
+                    }
                 }
             }
         }
