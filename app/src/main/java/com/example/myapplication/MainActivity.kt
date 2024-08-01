@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
                     }
 
                 ) { innerPadding ->
-                    BoxWithConstraintsExample(
+                    LayoutExample(
                         modifier = Modifier
                             .padding(innerPadding)
                     )
