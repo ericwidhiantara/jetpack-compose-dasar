@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                         TopAppBar(title = { Text("My App") })
                     }
                 ) { innerPadding ->
-                    FloatingActionButtonExample(
+                    ExtendedFloatingActionButtonExample(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
