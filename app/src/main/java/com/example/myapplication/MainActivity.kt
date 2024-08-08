@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                         TopAppBar(title = { Text("My App") })
                     }
                 ) { innerPadding ->
-                    RadioButtonExample(
+                    IconToggleButtonExample(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
