@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                         TopAppBar(title = { Text("My App") })
                     }
                 ) { innerPadding ->
-                    IconToggleButtonExample(
+                    SwitchButtonExample(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
