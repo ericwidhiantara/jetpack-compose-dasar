@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                         TopAppBar(title = { Text("My App") })
                     }
                 ) { innerPadding ->
-                    PopupDialogExample(
+                    SnackbarExample(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
