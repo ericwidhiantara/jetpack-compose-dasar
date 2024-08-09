@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                         TopAppBar(title = { Text("My App") })
                     }
                 ) { innerPadding ->
-                    NotificationExample(
+                    TabRowExample(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
