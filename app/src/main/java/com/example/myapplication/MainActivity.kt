@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                         TopAppBar(title = { Text("My App") })
                     }
                 ) { innerPadding ->
-                    IconExample(
+                    CircularProgressIndicatorExample(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
