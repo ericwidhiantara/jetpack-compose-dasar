@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                         TopAppBar(title = { Text("My App") })
                     }
                 ) { innerPadding ->
-                    CheckboxExample(
+                    SliderExample(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
