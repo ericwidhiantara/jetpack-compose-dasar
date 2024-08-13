@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
 //                        TopAppBar(title = { Text("My App") })
 //                    }
                 ) { innerPadding ->
-                    NavHostExample(
+                    BottomAppBarExample(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
