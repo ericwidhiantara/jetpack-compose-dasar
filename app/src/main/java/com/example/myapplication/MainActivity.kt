@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
                         TopAppBar(title = { Text("My App") })
                     }
                 ) { innerPadding ->
-                    ElevatedCardExample(
+                    OutlinedCardExample(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
