@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
                         TopAppBar(title = { Text("My App") })
                     }
                 ) { innerPadding ->
-                    DividerExample(
+                    BadgeExample(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
