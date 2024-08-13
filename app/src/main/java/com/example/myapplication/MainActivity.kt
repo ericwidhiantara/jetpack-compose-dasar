@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                         TopAppBar(title = { Text("My App") })
                     }
                 ) { innerPadding ->
-                    DropdownExample(
+                    NavigationBarExample(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
